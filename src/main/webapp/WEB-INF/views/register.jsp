@@ -11,8 +11,8 @@
 <h2  style ="color:white">Please enter the information below to make an account!</h2>
 
 <form action ="/registerGreeting" style ="color:white">
-First Name <input type = "text" name="fName" >
-Last Name <input type = "text" name="lName">
+First Name <input type = "text" name="firstName" >
+Last Name <input type = "text" name="lastName">
 <input type="submit"value = "Submit">
 </form>
 </body>
