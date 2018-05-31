@@ -5,6 +5,20 @@ import com.CoffeeShop.jdbc.ItemsDao;
 public class Items {
 	private String Name;
 	private String Discription;
+	private int Quantity;
+	private double Price;
+	public int getQuantity() {
+		return Quantity;
+	}
+	public void setQuantity(int quantity) {
+		Quantity = quantity;
+	}
+	public double getPrice() {
+		return Price;
+	}
+	public void setPrice(double price) {
+		Price = price;
+	}
 	public Items() {
 		super();
 		Name = "";
@@ -30,7 +44,8 @@ public class Items {
 	}
 	@Override
 	public String toString() {
-		return "Items [name=" + Name + ", Discription=" + Discription + "]";
+		return "Items [Name=" + Name + ", Discription=" + Discription + ", Quantity=" + Quantity + ", Price=" + Price
+				+ "]";
 	}
 
 }
